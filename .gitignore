@@ -1,0 +1,27 @@
+# Large datasets (see README for download instructions)
+datasets/cs_datasets/
+datasets/lombardia_shapefile/
+datasets/R03_indicatori_2011_areecensimento.csv
+datasets/tracciato_2011_areecensimento.csv
+
+# Generated intermediate datasets (regenerate by running notebooks)
+results/trips_cleaned.parquet
+results/xgboost/dataset_xgboost_milan.parquet
+results/lstm/dataset_h3_multicidad.parquet
+
+# Model checkpoints
+results/lstm/*.pt
+
+# Prediction outputs
+results/xgboost/*.csv
+results/lstm/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
